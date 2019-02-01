@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+a {
+  text-decoration: none;
+  color: #575555;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.pinkBar {
+  background-color: #bc3b6a;
+  display: flex;
+  padding: 5px 5px 5px 5px;
+}
+.pinkBar .logoAda {
+  width: 20px;
+  height: 20px;
+  margin-right: 2%;
+  margin-top: 5px;
+  margin-left: 10%;
+  align-items: center;
+}
+.pinkBar input {
+  width: 65%;
+  align-items: center;
+}
+.pinkBar .searchBox {
+  display: flex;
+  align-items: center;
+}
+.pinkBar .searchBox button {
+  align-items: center;
+  height: auto;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.productTitle {
+  font-size: 14px;
+}
+
+.productos {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  padding: 3px 20px 3px 3px;
+  margin-top: 3px;
+}
+.productos .prodBox1 {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 3;
+}
+.productos .prodBox1 .productData {
+  width: 40%;
+}
+.productos .prodBox1 .thumbnail {
+  display: flex;
+  padding: 10px;
+}
+.productos .prodBox1 .thumbnail img {
+  align-items: flex-start;
+  width: 100px;
+}
+.productos .prodBox1 .prodBox2 {
+  align-items: flex-end;
+  flex-grow: 1;
+}
+.productos .prodBox1 .prodBox2 .productAddress {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.detailPrice {
+  font-size: 28px;
+}
+
+.decimal {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.detailBox {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  background-color: white;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.detailBox .box1 {
+  width: 63%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.detailBox .box1 .detailDesc {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #494747;
+}
+.detailBox .box1 .detailImg {
+  width: 100%;
+  height: auto;
+}
+.detailBox .box2 {
+  width: 33%;
+  margin-left: 2%;
+}
+.detailBox .box2 .buyButton {
+  background-color: #0490db;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 9px 71px;
+  text-decoration: none;
+}
+.detailBox .box2 .buyButton:hover {
+  background-color: #0369b3;
+}
+.detailBox .box2 .detailSold, .detailBox .box2 .conditionSold {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.detailBox .decimal {
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.shipping {
+  padding-left: 20px;
+}
+
+ul .breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+  color: #333;
+  list-style: none;
+  margin-bottom: 20px;
+}
+ul li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+ul li + li:before {
+  padding: 9px;
+  content: "> ";
+}
+ul li:hover {
+  cursor: pointer;
+}
+
+.pancito + .pancito:before {
+  padding: 9px;
+  content: "/";
+}
+
+/*# sourceMappingURL=styles.css.map */
